@@ -76,6 +76,7 @@ function registerValidSW(swUrl, config) {
 
               // Execute callback
               if (config && config.onUpdate) {
+                console.log('inside executing callback');
                 config.onUpdate(registration);
               }
             } else {
