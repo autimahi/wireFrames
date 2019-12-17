@@ -75,7 +75,7 @@ function registerValidSW(swUrl, config) {
               );
 
               // Execute callback
-              console.log('config obj', config);
+              console.log('config obj is here', config);
               if (config && config.onUpdate) {
                 console.log('inside executing callback');
                 config.onUpdate(registration);
